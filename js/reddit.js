@@ -7,7 +7,7 @@ $.ajax({
   //handle successful response
   var verify=data;
   
-  testIterate(data);
+  iterateReddit(data);
 })
 .fail(function() {
   //Handle errors
@@ -22,3 +22,5 @@ $.ajax({
 
 
 //$('#reddit').append('div')
+//
+

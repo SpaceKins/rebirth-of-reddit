@@ -18,9 +18,9 @@ $.ajax({
 });
 
 
-//createArticles({title:"TITLE",author:"AUTHOR",date:"DATE",data:"DATA"});
 
+
+//createArticles({title:"TITLE",author:"AUTHOR",date:"DATE",data:"DATA"});
 
 //$('#reddit').append('div')
 //
-

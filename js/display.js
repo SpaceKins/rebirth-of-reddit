@@ -19,8 +19,6 @@ function createArticles(object)
   $('#reddit').append(returnArticle(object.data));
 }
 
-
-
 /**
  * This function generates the layout for each Ariticle
  * @param  {JSON} reddit JSON for a specific article
@@ -46,8 +44,7 @@ function returnArticle(redditObject){
 
   articleDiv.appendChild(imgDataDiv);
   imgDataDiv.appendChild(thumbNailDiv);
-  imgDataDiv.appendChild(dataDiv);
-  
+  imgDataDiv.appendChild(dataDiv);  
 
   authorDateDiv.appendChild(authorDiv);
   authorDateDiv.appendChild(dateDiv);

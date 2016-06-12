@@ -14,3 +14,16 @@ a{
 }
 }
 
+
+a{
+  &:hover{
+  color: darken($mainColor+100,75%);
+}
+  text-decoration: none;  
+}
+
+
+
+h1{
+  color: darken($mainColor+100,75%);
+}

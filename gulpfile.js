@@ -9,14 +9,13 @@ gulp.task('styles',function(){
 });
 
 
-gulp.task('watch',function(){
+gulp.task('watch',['styles'],function(){
   gulp.watch(['js/display.js','reddit.js'],function(){
     console.log('display.js has changed.');
-  })
+  });
+  gulp.watch('scss/**/**',['styles']);
 });
 
 
-gulp.task('default',function(){
-  console.log('hello again');
-});
+gulp.task('default',['styles']);
 
